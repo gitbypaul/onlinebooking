@@ -1,0 +1,518 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+.background {
+    background-color: white;
+    margin: 0 250px;
+}
+
+.cindys {
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 20px; 
+    font-size: 30px; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.logo img {
+    width: 60px;
+}
+.logo {
+    padding: 12px;
+    margin: 0 15px;
+}
+
+.cindys::after {
+    content: '';
+    background: rgb(121, 202, 0);
+    width: 130px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+nav ul li {
+    float: inline-end;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 12px;
+    transition: 1s;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5p
+}
+ul a :hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+.cindy {
+    padding: 12px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.roomname {
+    text-align: center;
+    padding: 12px 0 ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 5px;
+    padding-top: 20px;
+}
+.image img {
+    width: 100%;
+}
+.imageone img {
+    width: 100%;
+}
+.image {
+    width: 90%;
+}
+.imageone {
+    width: 100%;
+    
+}
+.secondcontainer {
+    margin-left: 100px;
+    margin-top: -8px;
+}
+.rating {
+    margin-top: -15px;
+}
+.checked {
+    color: orange;
+}
+.price {
+    margin-top: 8px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.status {
+    margin-top: -10px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.beds {
+    margin-top: -10px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.passenger {
+    margin-top: -10px;
+    padding-bottom: 15px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.available {
+    color: rgb(121, 202, 0);
+}
+.feature {
+    text-align: center;
+    padding: 12px 0 ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.thirdcontainer {
+    padding: 20px 0;
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+}
+.one {
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.icon {
+    margin-top: 5px;
+}
+.bookingarea {
+    text-align: center;
+    padding: 12px 0 ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.fourthcontainer {
+    margin: 0 100px;
+    padding: 20px 0;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+input {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;  
+    height: 2em;
+    cursor: pointer;
+}
+.input input {
+    width: 350px;
+    border: 0;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    padding: 8px;
+}
+.secondfield {
+    margin-top: 30px;
+    border: 0;
+    box-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+.date {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;  
+}
+.selectdate{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;  
+    line-height: 0;
+}
+.radio input {
+    cursor: pointer;
+    display: flex;
+}
+.night {
+    margin-top: 20px;
+}
+
+select {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+button {
+    border: 0;
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    transition: 1s;
+}
+button:hover {
+    background-color: rgb(119, 119, 119);
+    color: black;
+    cursor: pointer;
+}
+ fieldset {
+    border: 1px solid #858585;
+ }
+
+ footer {
+    padding: 25px;
+    background: rgb(74,92,106);
+background: linear-gradient(90deg, rgba(74,92,106,1) 0%, rgb(0, 0, 0) 0%);
+margin-top: 70px;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ccd0cf;
+}
+hr {
+    width: 50%;
+}
+.paul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerh1 {
+    cursor: default;
+    font-size: 20px;
+}
+.followus{
+    text-align: center;
+    color: #ccd0cf;
+    font-size: 20px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter {
+    font-size: 30px;
+    letter-spacing: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fa-instagram:hover {
+    color: #8b8b8b;
+}
+.fa-facebook:hover {
+    color: #8b8b8b;
+}
+.fa-twitter:hover {
+    color: #8b8b8b;
+}
+.footerh1 {
+    color: white;
+    cursor: default;
+    margin-top: 15px;
+}
+.footerp {
+    font-family: 'Agdasima', sans-serif;
+    font-size: large;
+
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.contacth1 {
+    color: white;
+    cursor: default;
+    font-size: 20px;
+    
+}
+.followh1 {
+    color: white;
+    cursor: default;
+    text-wrap: nowrap;
+    font-size: 20px;
+}
+.legalh1 {
+    color: white;
+    cursor: default;
+    font-size: 20px;
+}
+.last {
+    text-align: center;
+    color: white;
+    cursor: default;
+    margin-bottom: -30px;
+    font-size: 20px;
+}
+.contactp {
+    cursor: default;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.legal {
+    cursor: pointer;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.terms:hover {
+    color: white;
+    text-decoration: underline;
+}
+.contact {
+    cursor: default;
+}
+@media only screen and (max-width: 1100px) {
+    .background {
+        margin: 0 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .background {
+        margin: 0 150px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .background {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .background {
+        margin: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .background {
+        margin: 0 70px;
+    }
+    .fourthcontainer {
+        margin: 0 80px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .background {
+        margin: 0 70px;
+    }
+    .fourthcontainer {
+        margin: 0 50px;
+    }
+    .container {
+        margin: 0 60px;
+    }
+    .secondcontainer {
+        margin-left: 60px;
+    }
+    .input input {
+        width: 250px;
+    }
+    .thirdcontainer {
+        gap: 100px;
+    }
+    nav ul li {
+        margin-right: 15px;
+        padding-right: 0px;
+    }
+    .cindy {
+        font-size: 25px;
+    }
+    .footerh1, .footerp, .contacth1, .contactp, .followh1, .legalh1, .last, .terms {
+        font-size: 12px;
+    }
+    .footerh1 {
+        margin-top: 8px;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .background {
+        margin: 0 50px;
+    }
+    .fourthcontainer {
+        margin: 0 50px;
+    }
+    .container {
+        margin: 0 50px;
+    }
+    .secondcontainer {
+        margin-left: 50px;
+    }
+    .input input {
+        width: 250px;
+    }
+    .thirdcontainer {
+        gap: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .background {
+        margin: 0 30px;
+    }
+    .fourthcontainer {
+        margin: 0 30px;
+    }
+    .container {
+        margin: 0 30px;
+    }
+    .secondcontainer {
+        margin-left: 30px;
+    }
+    .input input {
+        width: 200px;
+    }
+    .thirdcontainer {
+        gap: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .logo {
+        padding: 12px;
+        margin: 0 10px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .background {
+        margin: 0 15px;
+    }
+    .fourthcontainer {
+        margin: 0 15px;
+    }
+    .container {
+        margin: 0 15px;
+    }
+    .secondcontainer {
+        margin-left: 15px;
+    }
+    .input input {
+        width: 200px;
+    }
+    .thirdcontainer {
+        gap: 50px;
+    }
+    nav ul li {
+        margin-right: 5px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    .cindy {
+        font-size: 20px;
+    }
+    .logo img {
+        width: 30px;
+    }
+    .logo {
+        padding: 12px;
+        margin: 0 5px;
+    }
+    .night {
+        font-size: 12px;
+    }
+}
+

@@ -1,0 +1,715 @@
+body {
+   background-color: rgb(236, 236, 236);
+text-wrap: nowrap;
+}
+.background {
+    background-color: white;
+    margin: 230px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.backgroundsecond {
+    background-color: white;
+    margin: 230px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.logo img {
+    width: 60px;
+}
+.logo {
+    padding: 12px;
+    margin: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.booking {
+    margin-top: -20px;
+    font-size: 12px;
+}
+.cindy {
+    padding: 12px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+nav ul li {
+    float: inline-end;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 12px;
+    transition: 1s;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5p
+}
+ul a :hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+.description {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5p
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.thirdcontainer {
+    display: flex;
+    gap: 10px;
+    margin: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+.fee {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.entrance {
+    padding-top: 10px;
+}
+.viewmoreimg {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.viewmoreimg a {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 1s;
+}
+.viewmoreimg a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #6d6d6d;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.reservation {
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 50px;
+    color: #000000;
+    margin-top: 30px; 
+    font-size: 30px;   
+}
+
+.reservation::after {
+    content: '';
+    background: rgb(36, 236, 36);
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.content img {
+    width: 100%;
+    transition: 1s;
+}
+.content {
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: white;
+    
+}
+.content img:hover {
+    transform:scale(1.1)
+}
+
+.fifthcontainer {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.toprice {
+    color: #000000;
+    position: absolute;
+    margin: 6px;
+    padding: 6px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+h3 {
+    margin-top: 5px;
+    margin-left: 8px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.status {
+    color: #000000;
+    margin-top: -23px;
+    margin-left: 8px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.available {
+    color: rgb(36, 236, 36);
+}
+.notavailable {
+    color: red;
+}
+.reserve {
+    color: #000000;
+    margin-top: -18px;
+    margin-left: 8px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 10px;
+}
+.viewroom {
+    margin-top: 18px;
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.viewroom a {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 2px;
+    transition: 1s;
+    text-decoration: none;
+}
+.viewroom a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #6d6d6d;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+footer {
+    padding: 25px;
+    background: rgb(74,92,106);
+background: linear-gradient(90deg, rgba(74,92,106,1) 0%, rgb(0, 0, 0) 0%);
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ccd0cf;
+}
+hr {
+    width: 50%;
+}
+.paul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerh1 {
+    cursor: default;
+    font-size: 20px;
+}
+.followus{
+    text-align: center;
+    color: #ccd0cf;
+    font-size: 20px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter {
+    font-size: 30px;
+    letter-spacing: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fa-instagram:hover {
+    color: #8b8b8b;
+}
+.fa-facebook:hover {
+    color: #8b8b8b;
+}
+.fa-twitter:hover {
+    color: #8b8b8b;
+}
+.footerh1 {
+    color: white;
+    cursor: default;
+    margin-top: 15px;
+}
+.footerp {
+    font-family: 'Agdasima', sans-serif;
+    font-size: large;
+
+}
+.name a {
+    text-decoration: none;
+    color: white;
+    cursor: 
+    ;
+}
+.contacth1 {
+    color: white;
+    cursor: default;
+    font-size: 20px;
+    
+}
+.followh1 {
+    color: white;
+    cursor: default;
+    text-wrap: nowrap;
+    font-size: 20px;
+}
+.legalh1 {
+    color: white;
+    cursor: default;
+    font-size: 20px;
+}
+.last {
+    text-align: center;
+    color: white;
+    cursor: default;
+    margin-bottom: -30px;
+    font-size: 20px;
+}
+.contactp {
+    cursor: default;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.legal {
+    cursor: pointer;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.terms:hover {
+    color: white;
+    text-decoration: underline;
+}
+.contact {
+    cursor: default;
+}
+.paul a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .background {
+        margin: 230px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 230px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 130px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav ul li {
+        margin-right: 15px;
+        padding-right: 0px;
+    }
+    .cindy {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .background {
+        margin: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 200px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav ul li {
+        margin-right: 15px;
+        padding-right: 0px;
+    }
+    .cindy {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .background {
+        margin: 150px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 150px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 60px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav ul li {
+        margin-right: 8px;
+        padding-right: 0px;
+    }
+    .cindy {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .background {
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 70px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .background {
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.entry {
+    margin: 0 60px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+    .background {
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+}
+
+@media only screen and (max-width: 670px) {
+    .background {
+        margin: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 50px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .fifthcontainer {
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.footerh1, .footerp, .contacth1, .contactp, .followh1, .legalh1, .last, .terms {
+    font-size: 12px;
+}
+h1 {
+    font-size: 23px;
+}
+.reservation {
+    font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .background {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .fifthcontainer {
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+}
+.footerh1, .footerp, .contacth1, .contactp, .followh1, .legalh1, .last, .terms {
+    font-size: 12px;
+}
+h1 {
+    font-size: 23px;
+}
+.reservation {
+    font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 530px) {
+    .background {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .fifthcontainer {
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+}
+.footerh1, .footerp, .contacth1, .contactp, .followh1, .legalh1, .last, .terms {
+    font-size: 12px;
+}
+h1 {
+    font-size: 23px;
+}
+.cindy {
+    font-size: 15px;
+}
+.reservation {
+    font-size: 25px;
+}
+nav ul li {
+    font-size: 12px;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .entry {
+        margin: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .background {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .fifthcontainer {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    .background {
+        margin: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .backgroundsecond {
+        margin: 0px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .thirdcontainer {
+        margin: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .fifthcontainer {
+        margin: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 10px;
+}
+.cindy {
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 13px;
+}
+nav ul li {
+    font-size: 10px;
+    margin-top: 0;
+}
+h3 {
+    font-size: 10px;
+}
+.viewroom {
+    font-size: 13px;
+}
+.welcome {
+    font-size: 18px;
+}
+.toprice {
+    font-size: 8px;
+}
+.status {
+    margin-top: -13px;
+    font-size: 12px;
+}
+.reserve {
+    margin-top: -15px;
+}
+.logo img {
+    width: 30px;
+}
+.logo {
+    margin-left: 0;
+}
+}
+
+

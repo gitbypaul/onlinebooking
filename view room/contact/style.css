@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.background {
+    background-color:  white;
+    margin: 0 250px;
+}
+img {
+    width: 80px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 30px; 
+    font-size: 30px;  
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px; 
+}
+
+h1::after {
+    content: '';
+    background: rgb(36, 236, 36);
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.firstcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.textarea {
+    display: flex;
+    justify-content: center;
+}
+input {
+    padding: 12px;
+    border: 0;
+    box-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+textarea {
+    border: 0;
+    box-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+button {
+    border: 0;
+    padding: 10px;
+    width: 70px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #929292;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1030px){
+    .background {
+        margin: 0 200px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .background {
+        margin: 0 160px;
+    }
+    textarea {
+        width: 350px;
+    }
+    input {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .background {
+        margin: 0 100px;
+    }
+    textarea {
+        width: 320px;
+    }
+    input {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .background {
+        margin: 0 60px;
+    }
+    textarea {
+        width: 280px;
+    }
+    input {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .background {
+        margin: 0 20px;
+    }
+    textarea {
+        width: 310px;
+    }
+    input {
+        width: 120px;
+    }
+}

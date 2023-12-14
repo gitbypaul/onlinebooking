@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.image img {
+    width: 30%;
+    mix-blend-mode:multiply;
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    margin-top: -70px;
+    
+}
+.cindy {
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+.cindy {
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: #000000;
+    font-size: 30px; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;  
+}
+
+.cindy::after {
+    content: '';
+    background: #eb5959;
+    width: 130px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    h2 {
+        margin-top: -50px;
+    }
+    .image {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h2 {
+        margin-top: -30px;
+    }
+    .image {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        margin-top: -10px;
+    }
+    .image {
+        margin-top: -10px;
+    }
+}
